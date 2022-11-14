@@ -1,6 +1,6 @@
 # OSS-9
+![레베이스](https://user-images.githubusercontent.com/113653315/201718177-dd8b8565-cb9b-421b-ac38-68f4ad5dcb5f.png)
 
-# 7. 리베이스
 
 브랜치를 합치는 방법
 - 병합
@@ -13,8 +13,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201719788-533442bf-8cd3-4a9d-b3d4-b11d3f4a86df.png" width="300">
 
-### 1. 베이스
 
 - master 브랜치를 제외한 **모든 브랜치에는 뿌리가 있음**.
 
@@ -31,8 +31,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201719860-2c1b77b0-f475-446c-9292-34acea4afab6.png" width="300">
 
-### 2. 베이스 변경
 
 - 리베이스는 파생된 브랜치의 기준이 되는 베이스 커밋을 변경하는 것.
 
@@ -49,8 +49,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201719940-4cffec1d-7f93-41d7-8490-ee394fa4d90f.png" width="300">
 
-### 3. 리베이스 VS 병합
 
 **병합** : 파생된 두 브랜치를 하나로 합치는 과정. 
 
@@ -89,8 +89,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201720018-0e898dab-8ca9-417c-9446-ae7de5d5aba2.png" width="300">
 
-### 4. 리베이스 명령어
 
 **rebase** 명령어 사용
 
@@ -124,8 +124,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201720042-7f6e3750-1ca4-4872-bd5d-9f958cd6d3b9.png" width="300">
 
-### 5. 리베이스 병합
 
 리베이스는 병합 기준 브랜치가 merge 명령어와 반대임.
 
@@ -154,8 +154,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201721106-89a29173-ddbe-4504-9c1a-81efcfebac49.png" width="300">
 
-### 6. 리베이스 되었는지 확인
 
 - 리베이스는 베이스 커밋을 변경하여 병합. 
 - 베이스 커밋을 변경하는 과정에서 재배치 작업을 하며 이 과정에서 **커밋의 해시 값이 변경**됨.
@@ -177,8 +177,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201720068-fc93431b-dce6-4b1f-b216-5e0163efe34a.png" width="300">
 
-### 7. 리베이스 후 브랜치
 
 - 리베이스는 커밋 위치를 재조정만 하며 브랜치의 HEAD 포인터까지는 옮겨 주지 않음
 > 리베이스 한 후에는 **병합 브랜치의 HEAD를 맞추어야** 함
@@ -204,8 +204,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201720095-3abef735-75ba-468c-8c66-0ff591677829.png" width="300">
 
-### 8. 리베이스 충돌과 해결
 
 - 리베이스는 기준점을 변경함. 병합 과정에서 충돌이 발생할 수 있음.
 - 리베이스 충돌 : 사용자가 수동으로 해결해야 함.
@@ -255,8 +255,8 @@
 ---
 
 <br>
+<img src="https://user-images.githubusercontent.com/113653315/201720180-35026679-24f7-4b00-834a-b0375a774049.png" width="300">
 
-### 9. rebase 명령어로 커밋 수정
 
 - 마지막 커밋은 –-amend 옵션으로 수정 가능. 
 - 리베이스는 여러 커밋을 한 커밋으로 묶을 수 있음. 이때 -i 옵션 사용
@@ -272,7 +272,7 @@
 
 <br>
 
-### 10. 리베이스 할 때 주의할 점
+<img src="https://user-images.githubusercontent.com/113653315/201720215-460b3908-2e8b-4d82-b390-0faecb54c6f7.png" width="300">
 
 1.	리베이스는 커밋 위치와 해시값을 변경함
 
@@ -290,9 +290,7 @@
 ---
 
 <br>
-
-
-### 8장 정리
+<img src="https://user-images.githubusercontent.com/113653315/201720252-328ec6e7-1381-4a47-98b1-53322b07a1fd.png" width="300">
 
 - 다수의 개발자와 협업할 때 병합과 충돌이 매우 자주 발생. 개발 과정에서 병합/충돌을 최소화 하고 예방하려면 master 브랜치 내용을 자주 반영하여 병합해야 함
 - 원격 저장소의 master 브랜치를 모니터링 하고, 변화된 부분을 즉시 반영하면서 작업하면 충돌을 최소화 하거나 예방할 수 있음
