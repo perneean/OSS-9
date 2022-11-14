@@ -31,7 +31,7 @@
 ---
 
 <br>
-<img src="https://user-images.githubusercontent.com/113653315/201719860-2c1b77b0-f475-446c-9292-34acea4afab6.png" width="300">
+<img src="https://user-images.githubusercontent.com/113653315/201719860-2c1b77b0-f475-446c-9292-34acea4afab6.png" width="500">
 
 
 - 리베이스는 파생된 브랜치의 기준이 되는 베이스 커밋을 변경하는 것.
