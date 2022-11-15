@@ -42,7 +42,7 @@
 
 - 장점 : 여러 갈래로 갈라지지 않아 **커밋의 진행 사항을 좀 더 쉽게 파악**할 수 있음.
 
-<img src="https://user-images.githubusercontent.com/107173046/201601276-dbddcda1-34f9-4c78-9c45-3b0741d26cda.png" width="330">
+<img src="https://user-images.githubusercontent.com/107173046/201601276-dbddcda1-34f9-4c78-9c45-3b0741d26cda.png" width="500">
 
 <br>
 
